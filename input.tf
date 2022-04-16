@@ -12,8 +12,8 @@ variable "options" {
 variable "configuration" {
   description = "Retrieve asset configurations."
   type = object({
-    tenancy = any,
-    service = any
+    tenancy  = any,
+    resident = any
   })
 }
 
