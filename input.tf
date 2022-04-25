@@ -15,7 +15,7 @@ variable "account" {
 variable "options" {
   description = "Input from the schema file."
   type = object({
-    class    = string,
+    create   = string,
     password = string
   })
 }
